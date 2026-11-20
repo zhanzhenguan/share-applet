@@ -1,0 +1,56 @@
+.couponContainer {
+  min-height: 100%;
+  padding: 24rpx;
+  box-sizing: border-box;
+  background-color: var(--bg-page);
+}
+.couponContainer .tabs {
+  display: flex;
+  padding: 8rpx;
+  background-color: var(--bg-card);
+  border-radius: 999rpx;
+  box-shadow: var(--shadow-card);
+}
+.couponContainer .tabs .tab {
+  flex: 1;
+  height: 68rpx;
+  line-height: 68rpx;
+  text-align: center;
+  border-radius: 999rpx;
+  font-size: 28rpx;
+  color: var(--text-2);
+}
+.couponContainer .tabs .tab--active {
+  background-color: var(--color-primary);
+  color: #fff;
+  font-weight: 500;
+}
+.couponContainer .empty {
+  margin-top: 24rpx;
+  padding: 96rpx 32rpx;
+  text-align: center;
+  background-color: var(--bg-card);
+  border-radius: 24rpx;
+  box-shadow: var(--shadow-card);
+}
+.couponContainer .empty .emptyIcon {
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: rgba(47, 174, 135, 0.1);
+  color: var(--color-primary);
+  font-size: 44rpx;
+  font-weight: 600;
+}
+.couponContainer .empty .emptyText {
+  margin-top: 24rpx;
+  font-size: 30rpx;
+  color: var(--text-1);
+}
+.couponContainer .empty .emptyHint {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: var(--text-3);
+}

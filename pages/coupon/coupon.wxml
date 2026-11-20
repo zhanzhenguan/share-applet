@@ -1,0 +1,11 @@
+<view class="couponContainer">
+  <view class="tabs">
+    <view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="tab {{item.b ? 'tab--active' : ''}}" bindtap="{{item.c}}">{{item.a}}</view>
+  </view>
+
+  <view class="empty">
+    <view class="emptyIcon">券</view>
+    <view class="emptyText">{{e}}</view>
+    <view class="emptyHint">参与门店活动或邀请好友可获得卡券</view>
+  </view>
+</view>

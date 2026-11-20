@@ -1,0 +1,70 @@
+.depositContainer {
+  min-height: 100%;
+  padding: 24rpx;
+  box-sizing: border-box;
+  background-color: var(--bg-page);
+}
+.depositContainer .statusCard {
+  padding: 48rpx 32rpx;
+  border-radius: 24rpx;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  box-shadow: 0 8rpx 24rpx rgba(47, 174, 135, 0.24);
+}
+.depositContainer .statusCard .statusLabel {
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #fff;
+}
+.depositContainer .statusCard .statusDesc {
+  margin-top: 12rpx;
+  font-size: 26rpx;
+  color: rgba(255, 255, 255, 0.85);
+}
+.depositContainer .card {
+  margin-top: 24rpx;
+  padding: 32rpx;
+  background-color: var(--bg-card);
+  border-radius: 24rpx;
+  box-shadow: var(--shadow-card);
+}
+.depositContainer .card .cardTitle {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.depositContainer .card .rule {
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  line-height: 42rpx;
+  color: var(--text-2);
+}
+.depositContainer .btn {
+  margin-top: 48rpx;
+  height: 92rpx;
+  line-height: 92rpx;
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 999rpx;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  box-shadow: 0 8rpx 24rpx rgba(47, 174, 135, 0.28);
+}
+.depositContainer .btn:active {
+  opacity: 0.9;
+}
+.depositContainer .btnContact {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+}
+.depositContainer .btnContact::after {
+  border: none;
+}
+.depositContainer .tip {
+  margin-top: 24rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: var(--text-3);
+}

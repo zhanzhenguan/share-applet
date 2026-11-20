@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/nearbystores/nearbystores",
+    "pages/detail/detail",
+    "pages/center/center",
+    "pages/order/order",
+    "pages/orderDetail/orderDetail",
+    "pages/verify/verify",
+    "pages/login/login",
+    "pages/agreement/agreement",
+    "pages/deposit/deposit",
+    "pages/help/help",
+    "pages/recruit/recruit",
+    "pages/coupon/coupon",
+    "pages/balance/balance",
+    "pages/message/message",
+    "pages/invite/invite",
+    "pages/invoice/invoice"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "共享充电",
+    "navigationBarBackgroundColor": "#F5F6F7",
+    "backgroundColor": "#F5F6F7"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序接口的位置展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

@@ -1,0 +1,59 @@
+<view class="recruitContainer">
+  <view class="banner">
+    <view class="bannerTitle">招募合作</view>
+    <view class="bannerDesc">有场地？一起做共享充电生意</view>
+  </view>
+
+  <view class="card">
+    <view class="cardTitle">合作优势</view>
+    <view class="item">
+      <text class="dot"></text>
+      <view class="itemBody">
+        <text class="itemTitle">零投入</text>
+        <text class="itemDesc">设备采购、安装与维护均由平台负责</text>
+      </view>
+    </view>
+    <view class="item">
+      <text class="dot"></text>
+      <view class="itemBody">
+        <text class="itemTitle">收益分成</text>
+        <text class="itemDesc">按租借流水结算，收益透明可查</text>
+      </view>
+    </view>
+    <view class="item">
+      <text class="dot"></text>
+      <view class="itemBody">
+        <text class="itemTitle">提升体验</text>
+        <text class="itemDesc">为到店顾客提供便利，增加停留时长</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="cardTitle">合作流程</view>
+    <view class="step">
+      <text class="stepNo">1</text>
+      <view class="stepBody">
+        <text class="stepTitle">提交意向</text>
+        <text class="stepDesc">通过客服留下场地信息与联系方式</text>
+      </view>
+    </view>
+    <view class="step">
+      <text class="stepNo">2</text>
+      <view class="stepBody">
+        <text class="stepTitle">需求沟通</text>
+        <text class="stepDesc">客服确认场地条件与设备数量</text>
+      </view>
+    </view>
+    <view class="step">
+      <text class="stepNo">3</text>
+      <view class="stepBody">
+        <text class="stepTitle">签约装机</text>
+        <text class="stepDesc">现场评估后签约，安排上门安装调试</text>
+      </view>
+    </view>
+  </view>
+
+  <button class="contactBtn" open-type="contact" hover-class="none">联系客服洽谈合作</button>
+  <view class="tip">适合便利店、餐饮、酒店、影院、写字楼等场景</view>
+</view>

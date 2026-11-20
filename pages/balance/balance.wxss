@@ -1,0 +1,78 @@
+.balanceContainer {
+  min-height: 100%;
+  padding: 24rpx;
+  box-sizing: border-box;
+  background-color: var(--bg-page);
+}
+.balanceContainer .balanceCard {
+  padding: 48rpx 32rpx;
+  border-radius: 24rpx;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  box-shadow: 0 8rpx 24rpx rgba(47, 174, 135, 0.24);
+}
+.balanceContainer .balanceCard .balanceLabel {
+  font-size: 26rpx;
+  color: rgba(255, 255, 255, 0.85);
+}
+.balanceContainer .balanceCard .balanceValue {
+  margin-top: 16rpx;
+  font-size: 72rpx;
+  font-weight: 600;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+.balanceContainer .balanceCard .balanceTip {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.75);
+}
+.balanceContainer .card {
+  margin-top: 24rpx;
+  padding: 32rpx;
+  background-color: var(--bg-card);
+  border-radius: 24rpx;
+  box-shadow: var(--shadow-card);
+}
+.balanceContainer .card .cardTitle {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.balanceContainer .card .recordList {
+  margin-top: 8rpx;
+}
+.balanceContainer .card .record {
+  display: flex;
+  align-items: center;
+  padding: 24rpx 0;
+  border-bottom: 1rpx solid var(--border-color);
+}
+.balanceContainer .card .record:last-child {
+  border-bottom: none;
+}
+.balanceContainer .card .record .recordLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.balanceContainer .card .record .recordLeft .recordStation {
+  font-size: 28rpx;
+  color: var(--text-1);
+}
+.balanceContainer .card .record .recordLeft .recordTime {
+  margin-top: 8rpx;
+  font-size: 24rpx;
+  color: var(--text-3);
+}
+.balanceContainer .card .record .recordAmount {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-1);
+  font-variant-numeric: tabular-nums;
+}
+.balanceContainer .card .emptyText {
+  padding: 64rpx 0;
+  text-align: center;
+  font-size: 26rpx;
+  color: var(--text-3);
+}

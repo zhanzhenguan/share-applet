@@ -1,0 +1,64 @@
+<view class="agreementContainer">
+  <view class="header">
+    <view class="title">用户协议与隐私政策</view>
+    <view class="update">更新日期：2026年11月19日</view>
+  </view>
+
+  <view class="card">
+    <view class="cardTitle">一、用户服务协议</view>
+    <view class="section">
+      <view class="sectionTitle">1. 服务内容</view>
+      <view class="paragraph">本小程序为用户提供共享充电宝的查询、租借、归还与订单查询服务。具体服务内容以小程序实际提供的功能为准。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">2. 账号与登录</view>
+      <view class="paragraph">你通过微信授权登录使用本服务。请妥善保管你的微信账号，因账号出借、转让或保管不善造成的损失由你自行承担。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">3. 租借与归还</view>
+      <view class="paragraph">租借前请确认设备状态与计费规则。租借后请按页面指引归还至可归还的机柜，归还成功以系统记录为准。未成功归还期间将持续计费。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">4. 押金与计费</view>
+      <view class="paragraph">用户可通过微信支付分申请免押租借，或按页面提示缴纳押金。计费标准以门店详情页展示为准。押金退还按页面说明及平台规则处理。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">5. 用户行为规范</view>
+      <view class="paragraph">用户不得恶意破坏设备、故意不归还、使用技术手段规避计费或从事其他违法违规行为。由此造成损失的，平台有权追究相应责任。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">6. 免责声明</view>
+      <view class="paragraph">因不可抗力、网络故障、设备维护等原因导致服务中断的，平台将尽力恢复服务，并在合理范围内协助处理相关问题。</view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="cardTitle">二、隐私政策</view>
+    <view class="section">
+      <view class="sectionTitle">1. 我们收集的信息</view>
+      <view class="paragraph">为提供服务，我们可能收集：微信登录标识、手机号、位置信息（用于展示附近门店）、租借与归还订单信息、支付相关信息。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">2. 信息的使用</view>
+      <view class="paragraph">上述信息仅用于账号登录、门店推荐、订单创建、计费结算、押金管理、客服处理及安全风控，不会用于与服务无关的用途。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">3. 信息的存储与保护</view>
+      <view class="paragraph">我们会在实现服务目的所需的期限内保存你的信息，并采取合理的技术与管理措施保护信息安全，防止未经授权的访问、泄露或篡改。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">4. 信息共享</view>
+      <view class="paragraph">除法律法规要求或为完成支付、免押验证等必要服务外，我们不会向第三方共享你的个人信息。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">5. 你的权利</view>
+      <view class="paragraph">你有权查询、更正、删除你的个人信息，或撤回授权。撤回授权后，我们可能无法继续为你提供相应功能，但不影响撤回前已进行的处理。</view>
+    </view>
+    <view class="section">
+      <view class="sectionTitle">6. 联系我们</view>
+      <view class="paragraph">如你对本协议或隐私政策有任何疑问，可通过小程序内“客服中心”与我们联系。</view>
+    </view>
+  </view>
+
+  <view class="footer">感谢你使用共享充电服务</view>
+</view>

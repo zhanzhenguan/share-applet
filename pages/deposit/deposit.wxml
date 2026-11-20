@@ -1,0 +1,19 @@
+<view class="depositContainer">
+  <view class="statusCard">
+    <view class="statusLabel">{{a ? '未开通免押' : '免押租借已开通'}}</view>
+    <view class="statusDesc">{{b}}</view>
+  </view>
+
+  <view class="card">
+    <view class="cardTitle">押金说明</view>
+    <view class="rule">1. 微信支付分 400 分及以上可申请免押租借。</view>
+    <view class="rule">2. 免押租借无需缴纳押金，归还成功后自动结束订单。</view>
+    <view class="rule">3. 如已缴纳押金，退款请联系客服核实处理。</view>
+    <view class="rule">4. 存在进行中订单时，暂不支持退还押金。</view>
+  </view>
+
+  <view wx:if="{{a}}" class="btn" bindtap="{{c}}">去开通免押</view>
+  <button wx:else class="btn btnContact" open-type="contact" hover-class="none">联系客服退还押金</button>
+
+  <view class="tip">押金状态以系统记录为准</view>
+</view>

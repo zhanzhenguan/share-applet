@@ -1,0 +1,41 @@
+<view class="inviteContainer">
+  <view class="banner">
+    <view class="bannerTitle">邀请有礼</view>
+    <view class="bannerDesc">好用的充电服务，分享给身边的朋友</view>
+  </view>
+
+  <view class="card">
+    <view class="cardTitle">活动说明</view>
+    <view class="step">
+      <text class="stepNo">1</text>
+      <view class="stepBody">
+        <text class="stepTitle">分享小程序</text>
+        <text class="stepDesc">点击下方按钮，把小程序分享给微信好友</text>
+      </view>
+    </view>
+    <view class="step">
+      <text class="stepNo">2</text>
+      <view class="stepBody">
+        <text class="stepTitle">好友登录使用</text>
+        <text class="stepDesc">好友通过分享卡片进入并完成租借</text>
+      </view>
+    </view>
+    <view class="step">
+      <text class="stepNo">3</text>
+      <view class="stepBody">
+        <text class="stepTitle">获得奖励</text>
+        <text class="stepDesc">奖励以活动实际发放为准，可在卡券中查看</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="cardTitle">活动规则</view>
+    <view class="rule">1. 每位用户可重复参与邀请，奖励按有效邀请计算。</view>
+    <view class="rule">2. 同一设备、同一账号的重复注册不计入有效邀请。</view>
+    <view class="rule">3. 如发现作弊行为，平台有权取消相应奖励。</view>
+    <view class="rule">4. 活动最终解释权归平台所有。</view>
+  </view>
+
+  <button class="shareBtn" open-type="share" hover-class="none">分享给好友</button>
+</view>

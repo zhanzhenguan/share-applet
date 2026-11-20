@@ -1,0 +1,18 @@
+<view class="helpContainer">
+  <view class="header">
+    <view class="title">帮助中心</view>
+    <view class="subtitle">关于租借、归还和计费的常见问题</view>
+  </view>
+
+  <view class="faqList">
+    <view wx:for="{{a}}" wx:for-item="item" wx:key="e" class="faqItem" bindtap="{{item.d}}">
+      <view class="faqHead">
+        <text class="faqQ">{{item.a}}</text>
+        <text class="faqIcon">{{item.c ? '−' : '+'}}</text>
+      </view>
+      <view wx:if="{{item.c}}" class="faqA">{{item.b}}</view>
+    </view>
+  </view>
+
+  <button class="contactBtn" open-type="contact" hover-class="none">联系在线客服</button>
+</view>

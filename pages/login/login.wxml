@@ -1,0 +1,41 @@
+<view class="loginPage">
+  <view class="hero">
+    <view class="logo" aria-label="共享充电">
+      <view class="powerMark"></view>
+    </view>
+    <view class="appName">共享充电</view>
+    <view class="slogan">随借随还，随时满电出发</view>
+  </view>
+
+  <view class="panel">
+    <view class="features">
+      <view class="feature">
+        <view class="featureDot"></view>
+        <text>免押租借</text>
+      </view>
+      <view class="feature">
+        <view class="featureDot"></view>
+        <text>附近门店</text>
+      </view>
+      <view class="feature">
+        <view class="featureDot"></view>
+        <text>随借随还</text>
+      </view>
+    </view>
+
+    <view wx:if="{{errorMsg}}" class="errorText">{{errorMsg}}</view>
+
+    <button class="loginBtn {{loading ? 'loginBtn--loading' : ''}}" loading="{{loading}}" disabled="{{loading}}" bindtap="handleLogin">{{loading ? '登录中...' : '微信一键登录'}}</button>
+
+    <view class="agreement" bindtap="toggleAgree">
+      <view class="checkbox {{agreed ? 'checkbox--checked' : ''}}">
+        <text wx:if="{{agreed}}" class="checkboxIcon">✓</text>
+      </view>
+      <view class="agreementText">我已阅读并同意<text class="link" catchtap="toAgreement">《用户协议与隐私政策》</text></view>
+    </view>
+
+    <view class="guestBtn" bindtap="goHome">先随便看看</view>
+  </view>
+
+  <view class="footer">登录后可使用扫码充电、订单查询等服务</view>
+</view>

@@ -1,0 +1,124 @@
+.orderDetailContainer {
+  min-height: 100%;
+  padding: 24rpx;
+  box-sizing: border-box;
+  background-color: var(--bg-page);
+}
+.orderDetailContainer .header {
+  padding: 24rpx 8rpx 32rpx;
+}
+.orderDetailContainer .header .title {
+  font-size: 40rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.orderDetailContainer .header .desc {
+  margin-top: 12rpx;
+  font-size: 26rpx;
+  color: var(--text-3);
+  line-height: 1.5;
+}
+.orderDetailContainer .content {
+  padding: 32rpx;
+  box-sizing: border-box;
+  background-color: var(--bg-card);
+  border-radius: 24rpx;
+  box-shadow: var(--shadow-card);
+}
+.orderDetailContainer .content .timePrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.orderDetailContainer .content .timePrice .top {
+  font-size: 40rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.orderDetailContainer .content .timePrice .bottom {
+  margin-top: 8rpx;
+  font-size: 24rpx;
+  color: var(--text-3);
+}
+.orderDetailContainer .content .timePrice .time {
+  flex: 1;
+}
+.orderDetailContainer .content .timePrice .price {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.orderDetailContainer .content .line {
+  height: 1rpx;
+  margin: 28rpx 0;
+  background-color: var(--border-color);
+}
+.orderDetailContainer .content .priceDetail .title {
+  margin-bottom: 16rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.orderDetailContainer .content .priceDetail .orderPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26rpx;
+  color: var(--text-1);
+}
+.orderDetailContainer .content .priceDetail .orderPrice .price {
+  color: var(--text-3);
+}
+.orderDetailContainer .content .priceDetail .priceRule {
+  margin-top: 20rpx;
+  padding: 24rpx;
+  background-color: var(--bg-subtle);
+  border-radius: 16rpx;
+  font-size: 24rpx;
+  color: var(--text-2);
+  line-height: 1.7;
+}
+.orderDetailContainer .content .borrowInfo .title {
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.orderDetailContainer .content .borrowInfo .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16rpx;
+  font-size: 26rpx;
+  line-height: 44rpx;
+  color: var(--text-1);
+}
+.orderDetailContainer .content .borrowInfo .item .itemTitle {
+  flex-shrink: 0;
+  margin-right: 24rpx;
+  color: var(--text-3);
+}
+.orderDetailContainer .content .borrowInfo .item text:last-child {
+  max-width: 65%;
+  text-align: right;
+  word-break: break-all;
+}
+.orderDetailContainer .content .btnContainer {
+  padding-top: 40rpx;
+}
+.orderDetailContainer .content .btnContainer button {
+  width: 100%;
+  height: 92rpx;
+  line-height: 92rpx;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+  border-radius: 999rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  box-shadow: 0 8rpx 24rpx rgba(47, 174, 135, 0.3);
+}
+.orderDetailContainer .content .btnContainer button::after {
+  border: none;
+}

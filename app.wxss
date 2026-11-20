@@ -1,0 +1,29 @@
+/* 全局设计变量与基础样式 */
+page {
+  height: 100%;
+  --color-primary: #2FAE87;
+  --color-primary-dark: #23805F;
+  --color-primary-light: #E9F7F1;
+  --color-success: #16A34A;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --text-1: #1F2329;
+  --text-2: #646A73;
+  --text-3: #8F959E;
+  --bg-page: #F5F6F7;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #F7F8FA;
+  --border-color: #F0F1F3;
+  --radius-sm: 16rpx;
+  --radius-card: 24rpx;
+  --radius-panel: 32rpx;
+  --radius-pill: 999rpx;
+  --shadow-card: 0 4rpx 16rpx rgba(17, 24, 39, 0.06);
+  --shadow-float: 0 8rpx 32rpx rgba(17, 24, 39, 0.10);
+  background-color: var(--bg-page);
+  color: var(--text-1);
+  font-size: 28rpx;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

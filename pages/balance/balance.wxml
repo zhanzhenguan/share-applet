@@ -1,0 +1,21 @@
+<view class="balanceContainer">
+  <view class="balanceCard">
+    <view class="balanceLabel">账户余额（元）</view>
+    <view class="balanceValue">{{a}}</view>
+    <view class="balanceTip">余额可用于支付租借费用</view>
+  </view>
+
+  <view class="card">
+    <view class="cardTitle">消费记录</view>
+    <view wx:if="{{b}}" class="recordList">
+      <view wx:for="{{c}}" wx:for-item="record" wx:key="d" class="record">
+        <view class="recordLeft">
+          <text class="recordStation">{{record.c}}</text>
+          <text class="recordTime">{{record.b}}</text>
+        </view>
+        <text class="recordAmount">-￥{{record.a}}</text>
+      </view>
+    </view>
+    <view wx:else class="emptyText">暂无消费记录</view>
+  </view>
+</view>

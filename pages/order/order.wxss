@@ -1,0 +1,98 @@
+.orderContainer {
+  height: 100%;
+  background-color: var(--bg-page);
+}
+.orderContainer .orderList {
+  height: 100%;
+  padding-top: 8rpx;
+  box-sizing: border-box;
+}
+.orderContainer .orderList .over {
+  padding: 32rpx 0 calc(32rpx + env(safe-area-inset-bottom));
+  text-align: center;
+  color: var(--text-3);
+  font-size: 24rpx;
+}
+.orderContainer .orderList .orderItem {
+  width: auto;
+  margin: 16rpx 24rpx;
+  padding: 28rpx;
+  background-color: var(--bg-card);
+  border-radius: 24rpx;
+  box-shadow: var(--shadow-card);
+  font-size: 28rpx;
+  line-height: 1.6;
+}
+.orderContainer .orderList .orderItem:active {
+  background-color: #FAFBFC;
+}
+.orderContainer .orderList .orderItem .itemTop {
+  display: flex;
+  align-items: center;
+}
+.orderContainer .orderList .orderItem .itemTop .topTitle {
+  flex: 1;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.orderContainer .orderList .orderItem .itemTop .topState {
+  margin-left: 8rpx;
+  padding: 2rpx 14rpx;
+  border-radius: 999rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.orderContainer .orderList .orderItem .itemTop .topState--charging {
+  color: var(--color-primary);
+  background-color: rgba(47, 174, 135, 0.12);
+}
+.orderContainer .orderList .orderItem .itemTop .topState--unpaid {
+  color: var(--color-warning);
+  background-color: #FFF7E6;
+}
+.orderContainer .orderList .orderItem .itemTop .topState--paid {
+  color: var(--color-success);
+  background-color: #ECFDF3;
+}
+.orderContainer .orderList .orderItem .itemTop .arrowImg {
+  width: 28rpx;
+  height: 28rpx;
+  margin-left: 8rpx;
+  opacity: 0.35;
+}
+.orderContainer .orderList .orderItem .itemTime,
+.orderContainer .orderList .orderItem .itemAddress {
+  margin-top: 12rpx;
+  color: var(--text-3);
+  font-size: 24rpx;
+  line-height: 40rpx;
+}
+.orderContainer .orderList .orderItem .line {
+  height: 1rpx;
+  margin: 20rpx 0;
+  background-color: var(--border-color);
+}
+.orderContainer .orderList .orderItem .itemBottom {
+  display: flex;
+  align-items: center;
+}
+.orderContainer .orderList .orderItem .itemBottom .bottomImg {
+  width: 28rpx;
+  height: 28rpx;
+  opacity: 0.5;
+}
+.orderContainer .orderList .orderItem .itemBottom .bottomTime {
+  margin-left: 8rpx;
+  font-size: 24rpx;
+  font-weight: 500;
+  color: var(--text-2);
+}
+.orderContainer .orderList .orderItem .itemBottom .bottomPrice {
+  flex: 1;
+  text-align: right;
+  font-size: 34rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}

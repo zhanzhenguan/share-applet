@@ -1,0 +1,19 @@
+<view class="messageContainer">
+  <view wx:if="{{b}}" class="empty">
+    <view class="emptyIcon">信</view>
+    <view class="emptyText">暂无消息</view>
+    <view class="emptyHint">订单状态变化会在这里提醒你</view>
+  </view>
+  <view wx:else class="messageList">
+    <view wx:for="{{a}}" wx:for-item="msg" wx:key="f" class="messageItem" bindtap="{{msg.e}}">
+      <view class="msgDot {{msg.d}}"></view>
+      <view class="msgBody">
+        <view class="msgTop">
+          <text class="msgTitle">{{msg.a}}</text>
+          <text class="msgTime">{{msg.c}}</text>
+        </view>
+        <text class="msgDesc">{{msg.b}}</text>
+      </view>
+    </view>
+  </view>
+</view>

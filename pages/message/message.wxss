@@ -1,0 +1,90 @@
+.messageContainer {
+  min-height: 100%;
+  padding: 24rpx;
+  box-sizing: border-box;
+  background-color: var(--bg-page);
+}
+.messageContainer .empty {
+  padding: 96rpx 32rpx;
+  text-align: center;
+  background-color: var(--bg-card);
+  border-radius: 24rpx;
+  box-shadow: var(--shadow-card);
+}
+.messageContainer .empty .emptyIcon {
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: rgba(47, 174, 135, 0.1);
+  color: var(--color-primary);
+  font-size: 44rpx;
+  font-weight: 600;
+}
+.messageContainer .empty .emptyText {
+  margin-top: 24rpx;
+  font-size: 30rpx;
+  color: var(--text-1);
+}
+.messageContainer .empty .emptyHint {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: var(--text-3);
+}
+.messageContainer .messageList {
+  overflow: hidden;
+  background-color: var(--bg-card);
+  border-radius: 24rpx;
+  box-shadow: var(--shadow-card);
+}
+.messageContainer .messageItem {
+  display: flex;
+  align-items: flex-start;
+  padding: 28rpx;
+  border-bottom: 1rpx solid var(--border-color);
+}
+.messageContainer .messageItem:last-child {
+  border-bottom: none;
+}
+.messageContainer .messageItem:active {
+  background-color: #FAFBFC;
+}
+.messageContainer .messageItem .msgDot {
+  width: 16rpx;
+  height: 16rpx;
+  margin-top: 12rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.messageContainer .messageItem .msgDot--charging {
+  background-color: var(--color-primary);
+}
+.messageContainer .messageItem .msgDot--unpaid {
+  background-color: var(--color-warning);
+}
+.messageContainer .messageItem .msgBody {
+  flex: 1;
+}
+.messageContainer .messageItem .msgBody .msgTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.messageContainer .messageItem .msgBody .msgTop .msgTitle {
+  font-size: 28rpx;
+  font-weight: 500;
+  color: var(--text-1);
+}
+.messageContainer .messageItem .msgBody .msgTop .msgTime {
+  font-size: 24rpx;
+  color: var(--text-3);
+}
+.messageContainer .messageItem .msgBody .msgDesc {
+  display: block;
+  margin-top: 8rpx;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  color: var(--text-2);
+}

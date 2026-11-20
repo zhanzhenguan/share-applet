@@ -1,0 +1,75 @@
+.invoiceContainer {
+  min-height: 100%;
+  padding: 24rpx;
+  box-sizing: border-box;
+  background-color: var(--bg-page);
+}
+.invoiceContainer .card {
+  margin-bottom: 24rpx;
+  padding: 32rpx;
+  background-color: var(--bg-card);
+  border-radius: 24rpx;
+  box-shadow: var(--shadow-card);
+}
+.invoiceContainer .card .cardTitle {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.invoiceContainer .card .rule {
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  line-height: 42rpx;
+  color: var(--text-2);
+}
+.invoiceContainer .card .orderItem {
+  display: flex;
+  align-items: center;
+  padding: 24rpx 0;
+  border-bottom: 1rpx solid var(--border-color);
+}
+.invoiceContainer .card .orderItem:last-child {
+  border-bottom: none;
+}
+.invoiceContainer .card .orderItem .orderLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.invoiceContainer .card .orderItem .orderLeft .orderNo {
+  font-size: 28rpx;
+  color: var(--text-1);
+}
+.invoiceContainer .card .orderItem .orderLeft .orderTime {
+  margin-top: 8rpx;
+  font-size: 24rpx;
+  color: var(--text-3);
+}
+.invoiceContainer .card .orderItem .orderAmount {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-1);
+  font-variant-numeric: tabular-nums;
+}
+.invoiceContainer .card .emptyText {
+  padding: 64rpx 0;
+  text-align: center;
+  font-size: 26rpx;
+  color: var(--text-3);
+}
+.invoiceContainer .contactBtn {
+  width: 100%;
+  height: 92rpx;
+  line-height: 92rpx;
+  padding: 0;
+  border: none;
+  border-radius: 999rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  box-shadow: 0 8rpx 24rpx rgba(47, 174, 135, 0.28);
+}
+.invoiceContainer .contactBtn::after {
+  border: none;
+}

@@ -1,0 +1,135 @@
+.detailContainer {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--bg-page);
+}
+.detailContainer .top {
+  position: relative;
+  height: 420rpx;
+  background-color: var(--bg-subtle);
+}
+.detailContainer .top::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40%;
+  background: linear-gradient(180deg, rgba(17, 24, 39, 0), rgba(17, 24, 39, 0.35));
+  pointer-events: none;
+}
+.detailContainer .main {
+  position: relative;
+  z-index: 2;
+  margin-top: -48rpx;
+  padding: 40rpx 32rpx calc(48rpx + env(safe-area-inset-bottom));
+  background-color: var(--bg-card);
+  border-radius: 32rpx 32rpx 0 0;
+  box-sizing: border-box;
+}
+.detailContainer .main .title {
+  font-size: 40rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.detailContainer .main .address,
+.detailContainer .main .time,
+.detailContainer .main .content {
+  margin-top: 16rpx;
+  font-size: 26rpx;
+  color: var(--text-2);
+  line-height: 44rpx;
+}
+.detailContainer .main .address {
+  margin-top: 20rpx;
+}
+.detailContainer .main .useback {
+  display: flex;
+  align-items: center;
+  margin-top: 32rpx;
+  padding: 24rpx 28rpx;
+  background-color: var(--bg-subtle);
+  border-radius: 16rpx;
+}
+.detailContainer .main .useback .usebackImg {
+  width: 64rpx;
+  height: 40rpx;
+}
+.detailContainer .main .useback text {
+  font-size: 26rpx;
+  font-weight: 600;
+  color: var(--text-1);
+}
+.detailContainer .main .useback text.use {
+  margin: 0 20rpx 0 16rpx;
+  color: var(--color-primary);
+}
+.detailContainer .main .btns {
+  display: flex;
+  margin-top: 40rpx;
+}
+.detailContainer .main .btns view {
+  flex: 1;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.detailContainer .main .btns view.leftBtn {
+  margin-right: 24rpx;
+  color: var(--color-primary);
+  border: 2rpx solid var(--color-primary);
+  background-color: #fff;
+}
+.detailContainer .main .btns view.leftBtn:active {
+  background-color: var(--color-primary-light);
+}
+.detailContainer .main .btns view.leftBtn--disabled {
+  color: var(--text-3);
+  border-color: transparent;
+  background-color: #F2F3F5;
+}
+.detailContainer .main .btns view.leftBtn--disabled:active {
+  background-color: #F2F3F5;
+}
+.detailContainer .main .btns view.rightBtn {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+  box-shadow: 0 8rpx 24rpx rgba(47, 174, 135, 0.3);
+}
+.detailContainer .main .btns view.rightBtn:active {
+  opacity: 0.9;
+}
+.detailContainer .main .bottom {
+  margin-top: 32rpx;
+  font-size: 24rpx;
+  color: var(--text-3);
+  text-align: center;
+  line-height: 1.5;
+}
+.detailContainer .maskContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(17, 24, 39, 0.45);
+}
+.detailContainer .maskContainer .content {
+  padding: 32rpx 48rpx;
+  background-color: #fff;
+  border-radius: 24rpx;
+  font-size: 28rpx;
+  color: var(--text-1);
+  box-shadow: var(--shadow-float);
+}
+.detailContainer .maskContainer .mask {
+  display: none;
+}

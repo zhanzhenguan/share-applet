@@ -1,0 +1,122 @@
+.nearContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-page);
+}
+.nearContainer .map {
+  height: 44%;
+  flex-shrink: 0;
+}
+.nearContainer .list {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  min-height: 0;
+  height: auto;
+  margin-top: -24rpx;
+  padding: 8rpx 0 calc(24rpx + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+  background-color: var(--bg-page);
+  border-radius: 32rpx 32rpx 0 0;
+}
+.nearContainer .list .item {
+  width: auto;
+  margin: 16rpx 24rpx;
+  padding: 24rpx;
+  box-sizing: border-box;
+  background-color: var(--bg-card);
+  border-radius: 24rpx;
+  border: 2rpx solid transparent;
+  box-shadow: var(--shadow-card);
+  transition: background-color 0.15s, border-color 0.15s;
+}
+.nearContainer .list .item:active {
+  background-color: #FAFBFC;
+}
+.nearContainer .list .item.active {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-light);
+}
+.nearContainer .list .item .itemTop {
+  display: flex;
+  align-items: center;
+}
+.nearContainer .list .item .itemTop .itemImg {
+  width: 120rpx;
+  height: 120rpx;
+  flex-shrink: 0;
+  border-radius: 16rpx;
+  background-color: var(--bg-subtle);
+}
+.nearContainer .list .item .itemTop .itemMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-width: 0;
+  margin: 0 20rpx;
+}
+.nearContainer .list .item .itemTop .itemMain .mainTitle {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-1);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nearContainer .list .item .itemTop .itemMain .mainAddress {
+  margin-top: 6rpx;
+  font-size: 24rpx;
+  color: var(--text-3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nearContainer .list .item .itemTop .itemMain .mainTime {
+  margin-top: 6rpx;
+  font-size: 24rpx;
+  color: var(--text-2);
+}
+.nearContainer .list .item .itemTop .mainRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-left: 16rpx;
+}
+.nearContainer .list .item .itemTop .mainRight .rightImg {
+  width: 32rpx;
+  height: 32rpx;
+  margin-bottom: 6rpx;
+}
+.nearContainer .list .item .itemTop .mainRight .rightText {
+  font-size: 24rpx;
+  color: var(--text-3);
+}
+.nearContainer .list .item .itemBottom {
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+  border-top: 1rpx solid var(--border-color);
+}
+.nearContainer .list .item .itemBottom .bottomImg {
+  width: 64rpx;
+  height: 40rpx;
+}
+.nearContainer .list .item .itemBottom text {
+  padding: 2rpx 14rpx;
+  border-radius: 999rpx;
+  background-color: var(--bg-subtle);
+  color: var(--text-2);
+  font-size: 22rpx;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.nearContainer .list .item .itemBottom text.use {
+  margin: 0 12rpx 0 16rpx;
+  background-color: rgba(47, 174, 135, 0.12);
+  color: var(--color-primary);
+}

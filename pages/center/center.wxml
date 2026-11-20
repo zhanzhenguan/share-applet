@@ -1,0 +1,87 @@
+<view class="centerContainer data-v-3f122818">
+  <view class="top data-v-3f122818">
+    <view class="content data-v-3f122818">
+      <view class="avatar data-v-3f122818">
+        <view class="avatarHead data-v-3f122818"></view>
+        <view class="avatarBody data-v-3f122818"></view>
+      </view>
+      <view class="phone data-v-3f122818">
+        <text class="phoneNum data-v-3f122818">{{a}}</text>
+        <text wx:if="{{d}}" class="phoneSub data-v-3f122818">{{d}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="main data-v-3f122818 {{h ? 'main--hasOrder' : 'main--noOrder'}}">
+    <view wx:if="{{h}}" class="orderCard data-v-3f122818 {{s}}" bindtap="{{j}}">
+      <view class="orderCardLeft data-v-3f122818">
+        <view class="orderTag data-v-3f122818"><text class="orderDot data-v-3f122818"></text>{{t}}</view>
+        <text class="orderDesc data-v-3f122818">{{i}}</text>
+      </view>
+      <view class="orderAction data-v-3f122818">
+        <text class="orderLink data-v-3f122818">{{u}}</text>
+        <image class="orderArrow data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+      </view>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{k}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/押金.png" mode=""></image>
+      <view class="itemText data-v-3f122818"><text class="left data-v-3f122818">押金</text><text class="middle data-v-3f122818">/</text><text class="right data-v-3f122818">{{b}}</text></view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{c}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/订单.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 我的订单 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{n}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/卡券.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 我的卡券 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{o}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/押金.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 我的余额 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{p}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/Flag.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 消息通知 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{l}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/安全.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 帮助中心 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <button class="mainItem mainItem--btn data-v-3f122818" open-type="contact" hover-class="none">
+      <image class="itemImg data-v-3f122818" src="/static/images/客服中心.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 客服中心 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </button>
+    <view class="mainItem data-v-3f122818" bindtap="{{m}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/生意转让.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 招募合作 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{q}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/个人中心.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 邀请有礼 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{r}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/二维码.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 开具发票 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{f}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/安全.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 用户协议与隐私政策 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="mainItem data-v-3f122818" bindtap="{{g}}">
+      <image class="itemImg data-v-3f122818" src="/static/images/设置.png" mode=""></image>
+      <view class="itemText data-v-3f122818"> 设置 </view>
+      <image class="arrowImg data-v-3f122818" src="/static/images/向右.png" mode=""></image>
+    </view>
+    <view class="logout data-v-3f122818" bindtap="{{e}}">退出登录</view>
+  </view>
+</view>

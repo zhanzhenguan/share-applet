@@ -1,0 +1,64 @@
+.verifyContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(17, 24, 39, 0.55);
+}
+.verifyContainer .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 620rpx;
+  padding: 48rpx 40rpx;
+  box-sizing: border-box;
+  background-color: var(--bg-card);
+  border-radius: 32rpx;
+  box-shadow: var(--shadow-float);
+}
+.verifyContainer .content .safe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.verifyContainer .content .safe .safeImg {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 8rpx;
+}
+.verifyContainer .content .safe .safeText {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: var(--text-2);
+}
+.verifyContainer .content .verifyText {
+  margin: 24rpx 0 40rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: var(--text-1);
+  text-align: center;
+}
+.verifyContainer .content .btn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16rpx 0;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+  border-radius: 999rpx;
+  line-height: 1.4;
+  box-shadow: 0 8rpx 24rpx rgba(47, 174, 135, 0.3);
+}
+.verifyContainer .content .btn::after {
+  border: none;
+}
+.verifyContainer .content .btn .top {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.verifyContainer .content .btn .bottom {
+  font-size: 22rpx;
+  opacity: 0.85;
+}
