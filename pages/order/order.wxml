@@ -8,7 +8,9 @@
       <view class="itemAddress"> 租借地点: {{order.e}}</view>
       <view class="line"></view>
       <view class="itemBottom"><text class="bottomTime">{{order.f}}分钟</text><text class="bottomPrice">￥{{order.g}}</text>
+        <!-- 删除按钮暂未使用，先注释保留
         <image class="bottomImg" src="/static/images/删除.png" mode=""></image>
+        -->
       </view>
     </view>
     <view class="over"> 已经到底了 </view>
