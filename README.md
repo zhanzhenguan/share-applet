@@ -151,3 +151,25 @@ const config = {
 - 卡券暂无后端接口；余额字段假设为 `userInfo.balance`；发票暂以客服开票承接。
 - 协议与 FAQ 文案为通用模板，上线前需替换为正式版本。
 - 附近门店、门店详情等接口若后端要求鉴权，游客会被引导至登录页，需与后端确认公开范围。
+
+## 演示
+<img width="387" height="767" alt="image" src="https://github.com/user-attachments/assets/8f171c77-0beb-42fb-b5d8-042df1b59520" />
+<img width="384" height="762" alt="image" src="https://github.com/user-attachments/assets/e31c7cac-ddd1-41cc-9f0f-be9abd136f23" />
+<img width="381" height="776" alt="image" src="https://github.com/user-attachments/assets/0d137615-b35e-46d0-b2e4-f0f6225792b9" />
+<img width="382" height="776" alt="image" src="https://github.com/user-attachments/assets/29d9aae2-cc50-411b-9998-2becb6e2624b" />
+<img width="384" height="714" alt="image" src="https://github.com/user-attachments/assets/ed9d72b3-a71d-4b23-82c2-5e88f8ada0d6" />
+<img width="380" height="746" alt="image" src="https://github.com/user-attachments/assets/262fbdae-ec7a-4531-a485-91c013285bad" />
+<img width="382" height="779" alt="image" src="https://github.com/user-attachments/assets/df137dd6-c954-4474-ac02-364d43ee7f5e" />
+<img width="384" height="749" alt="image" src="https://github.com/user-attachments/assets/701c3f0c-19c5-46fe-9ff2-687040cf4156" />
+<img width="382" height="767" alt="image" src="https://github.com/user-attachments/assets/85c79945-c947-4641-bd74-d5f3644964f2" />
+
+
+
+
+
+
+
+
+
+
+
